@@ -73,8 +73,45 @@
 "use strict";
 
 
+var _Ion = __webpack_require__(1);
+
+var _Dmitrii = __webpack_require__(2);
+
 var APP = 1;
 console.log(APP);
+(0, _Ion.Ion)("Norok Ion");
+(0, _Dmitrii.dmitrii)("Norok Dima");
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function Ion(a) {
+    console.log(a);
+}
+exports.Ion = Ion;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function dmitrii(a) {
+    console.log("Hello " + a);
+}
+
+exports.dmitrii = dmitrii;
 
 /***/ })
 /******/ ]);
