@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,14 +73,14 @@
 "use strict";
 
 
-var _Ion = __webpack_require__(1);
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function dmitrii(a) {
+    console.log("Hello " + a);
+}
 
-var _Dmitrii = __webpack_require__(2);
-
-var APP = 1;
-console.log(APP);
-(0, _Ion.Ion)("Norok Ion");
-(0, _Dmitrii.dmitrii)("Norok Dima");
+exports.dmitrii = dmitrii;
 
 /***/ }),
 /* 1 */
@@ -107,11 +107,29 @@ exports.Ion = Ion;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-function dmitrii(a) {
-    console.log("Hello " + a);
+function Nicolae(a) {
+    console.log(a);
 }
+exports.Nicolae = Nicolae;
 
-exports.dmitrii = dmitrii;
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _Ion = __webpack_require__(1);
+
+var _Dmitrii = __webpack_require__(0);
+
+var _nicolae = __webpack_require__(2);
+
+var APP = 1;
+console.log(APP);
+(0, _Ion.Ion)("Norok Ion");
+(0, _Dmitrii.dmitrii)("Norok Dima");
+(0, _nicolae.Nicolae)("Norok Colea");
 
 /***/ })
 /******/ ]);
