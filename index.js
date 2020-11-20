@@ -1,8 +1,12 @@
 import {Ion} from './Ion.js';
 import {dmitrii} from './Dmitrii.js';
 import {Nicolae} from './nicolae.js';
+import {Ian} from './Ian.js';
+import {Valera} from './Valera-x.js';
 const APP = 1;
 console.log(APP)
 Ion("Norok Ion");
 dmitrii("Norok Dima");
-Nicolae("Norok Colea")
+Nicolae("Norok Gimi");
+Ian("Norok Ian");
+Valera("Norok Valera");
