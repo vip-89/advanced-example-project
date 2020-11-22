@@ -1,12 +1,12 @@
-// function Nicolae(a){
-//     console.log(a)
-// }
-// export {Nicolae}
+function Nicolae(a){
+    console.log(a)
+}
+export {Nicolae}
 
-function kolia() {
-    let i = 0;
-    while(i++<10){
-        console.log('7 * ${i} = ${7*i}');
+function inmultire() {
+    for (let i = 1; i <11; i++)
+    {
+        console.log(`7 * ${i} = ${7*i}`);
     }
 }
-kolia();
+inmultire();
