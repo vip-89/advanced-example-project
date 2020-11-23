@@ -1,0 +1,5 @@
+const dmitriiFunc = () => {
+
+}
+
+export {dmitriiFunc}
