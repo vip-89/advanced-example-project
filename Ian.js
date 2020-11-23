@@ -1,7 +1,7 @@
 function Ian(best){
     console.log(best)
 }
-export {Ian}
+
 
 // func nume prenume virsrta, daca virsta e mai mica de 18 ani, atunci in consola apare sunteti prea mic ,
 //     daca virsta e intre 18 40 anumit tip de baururi,daca e peste 40 serviti mai putin alcool
@@ -20,4 +20,4 @@ function bautura(){
         console.log("Error!!!")
     }
 }
-export{bautura};
+export{Ian, bautura};
