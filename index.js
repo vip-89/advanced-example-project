@@ -1,7 +1,7 @@
 import {Ion} from './Ion.js';
 import {dmitrii} from './Dmitrii.js';
 import {Nicolae} from './nicolae.js';
-import {Ian} from './Ian.js';
+import {Ian, bautura} from './Ian.js';
 import {Valera} from './Valera-x.js';
 import {virsta} from "./Dmitrii";
 import {inmultire} from "./Dmitrii";
@@ -21,3 +21,4 @@ inmultire('5')
 Gicu("Salut Gicu");
 Vitalik("Norok Vitalik");
 Gloria("Norok Gloria");
+bautura();
