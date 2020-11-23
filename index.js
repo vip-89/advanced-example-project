@@ -8,6 +8,7 @@ import {inmultire} from "./Dmitrii";
 import {Gicu} from "./Gicu";
 import {Vitalik} from "./Vitalik";
 import {Gloria} from "./Gloria";
+import {dmitriiFunc} from "./DmitriiVariables";
 
 const APP = 1;
 console.log(APP)
@@ -22,3 +23,4 @@ Gicu("Salut Gicu");
 Vitalik("Norok Vitalik");
 Gloria("Norok Gloria");
 bautura();
+dmitriiFunc()
