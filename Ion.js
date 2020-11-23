@@ -7,9 +7,9 @@ function Ion(a){
 function ariaPatratului(L){
     alert((L*L));
 }
-let valoare = prompt("Adauga valoare laturei patratului:")
+let aria = prompt("Adauga valoare laturei patratului:")
 
-ariaPatratului(valoare);
+ariaPatratului(aria);
 
 
 //Functia de transformare a gradelor Fahrenheit in Celsius
@@ -18,7 +18,7 @@ function toCelsius(g){
     alert((5/9) * (g-32));
 }
 
-var valoare = prompt("Adauga valoare in grade F:")
+let valoare = prompt("Adauga valoare in grade F:")
 
 toCelsius(valoare);
 
