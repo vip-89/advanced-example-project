@@ -44,3 +44,20 @@ console.log(result)
 // 5 b , use strict , calculare , interpolare
 export {dmitriiFunc}
 
+// functia .Scrieți o funcție  care inversează un număr. Exemplu x = 32243; Ieșire preconizată: 34223
+// nam inteles este reverse ??? trebuie sa fac ?!
+
+let invers = (inv) =>{
+    return inv.split("").reverse().join("")
+}
+
+console.log(invers('32243'))
+
+// Scrieți o funcție care acceptă un argument și returnează tipul lui
+
+let tipulVar = (tipV) => {
+    return typeof(tipV)
+}
+
+console.log(tipulVar(true))
+
