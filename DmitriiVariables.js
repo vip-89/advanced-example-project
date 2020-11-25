@@ -43,3 +43,21 @@ console.log(result)
 // acasa 30 variable dinte care 10 trebuie sa fie de tip number , 5 de tip string dar number '5' , si 5 de tip string litere
 // 5 b , use strict , calculare , interpolare
 export {dmitriiFunc}
+
+// functia .Scrieți o funcție  care inversează un număr. Exemplu x = 32243; Ieșire preconizată: 34223
+// nam inteles este reverse ??? trebuie sa fac ?!
+
+let invers = (inv) =>{
+    return inv.split("").reverse().join("")
+}
+
+console.log(invers('32243'))
+
+// Scrieți o funcție care acceptă un argument și returnează tipul lui
+
+let tipulVar = (tipV) => {
+    return typeof(tipV)
+}
+
+console.log(tipulVar(true))
+
