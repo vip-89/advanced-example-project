@@ -230,12 +230,119 @@
 // Expression && Arrow
 // 1) Radius
 //expression
-let radius = function (radius) {
-  return  console.log(3.14 * radius**2);
-}
-
-radius(15)
+// let radius = function (radius) {
+//   return  console.log(3.14 * radius**2);
+// }
+//
+// radius(15)
 
 // arrow
-let radius2 = (radius)=>console.log(3.14 * radius**2)
-radius2(5)
+// let radius2 = (radius)=>console.log(3.14 * radius**2)
+// radius2(5)
+//
+// //2 Daca number este par
+//
+// let inm  = function (number) {
+//   if (number%2 === 0){
+//     console.log('Este cifra para')
+// }
+//   else if (number%2 !== 0)
+//   {
+//     console.log('Nu este par')
+//   }
+//   else {
+//     console.log('Something wrong')
+//   }
+//
+// }
+//
+// inm(4)
+//
+//
+// //2 arrow
+//
+// let inm2 = (number)=>{
+//   if (number%2 === 0){
+//     console.log('Este cifra para')
+//   }
+//   else if (number%2 !== 0)
+//   {
+//     console.log('Nu este par')
+//   }
+//   else {
+//     console.log('Something wrong')
+//   }
+// }
+//
+// inm2()
+
+
+// ferificare lentch
+
+// 3let firific_lentch = function (text) {
+// if (text.length>0 && text.length<=10){
+//   console.log('Correct lentch')
+// }
+// else if (text.length<0 || text.length>10){
+//   console.log('Not too many lenght')
+// }
+// else {
+//   console.log('some error')
+// }
+// }
+//
+// firific_lentch('hello')
+//
+// // arrow
+//
+// 3let firific_lentch2 = (text)=> {
+//   if (text.length>0 && text.length<=10){
+//     console.log('Correct lentch')
+//   }
+//   else if (text.length<0 || text.length>10){
+//     console.log('Not too many lenght')
+//   }
+//   else {
+//     console.log('some error')
+//   }
+// }
+//
+// firific_lentch('hello')
+// firific_lentch2('bb')
+
+
+//4 contat 2 strings
+
+//expression
+// let concStings = function (first,second) {
+//
+//   return `${first} ${second}`
+//
+// }
+//
+// console.log(
+//     concStings('hello','dmitrii')
+// )
+//
+// //arrow
+//
+// let concString2 = (first,second)=>`${first} ${second}`
+//
+// console.log(concString2('agra','cultur'))
+
+
+//5 name si age
+
+// let getPerson = (name,age)=>{
+//   let x = 2020 - age;
+//
+//   if (x > 0){
+//     console.log(`Это ${name} ему ${x} лет` )
+//   }
+//   else {
+//     console.log('Это будущее')
+//   }
+// }
+//
+// getPerson('Дмитрий',2017)
+// getPerson('Коля',2011)
