@@ -1,4 +1,13 @@
-function Gloria(best){
-    console.log(best)
+function variabilaGloria(best){
+    console.log(best);
 }
-export {Gloria}
+export {variabilaGloria};
+
+function gloriaVariabila(){
+    let x, y;
+    let result = 0;
+    x = 5;
+    y = 7;
+    result = x + y;
+    console.log(result);
+}
