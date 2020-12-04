@@ -82,3 +82,74 @@
 //     return i.height;
 // });
 // console.log(heights);
+
+
+// Exeercitiu in clasa 03.12.2020
+
+// let produse = [
+//     {nume:'rosii', tipul:'legume'},
+//     {nume:'vinata', tipul:'legume'},
+//     {nume:'portocala', tipul:'fructe'},
+//     {nume:'ananas', tipul:'fructe'},
+// ]
+//
+// const rezult =[]
+//
+// for (let i = 0; i < produse.length ; i++)  {
+//   if (produse[i].tipul==="legume"){
+//       rezult.push(produse[i]);
+//
+//   }
+// }
+// console.log(rezult);
+
+// Metoda mai scurta
+
+// let produse = [
+//     {nume:'rosii', tipul:'legume'},
+//     {nume:'vinata', tipul:'legume'},
+//     {nume:'portocala', tipul:'fructe'},
+//     {nume:'ananas', tipul:'fructe'},
+// ]
+//
+// const legume = produse.filter((item) =>item.tipul === "legume");
+// console.log(legume);
+
+
+// let produse = [
+//     {nume:'rosii', tipul:'legume', cantitate:7, pret:17},
+//     {nume:'vinata', tipul:'legume', cantitate:1, pret:12},
+//     {nume:'portocala', tipul:'fructe', cantitate:1, pret:12},
+//     {nume:'ananas', tipul:'fructe', cantitate:7, pret:17},
+// ]
+//
+// const legume = produse.filter((item) => item.tipul === "legume" && produse.cantitate > 5 && produse.pret <15 );
+// console.log(legume); finisez acasa!!!
+
+// ---------------------------------------
+
+let numere = [12, 15, 5, 128, 46, 4, 200, 19, 1, 33];
+
+const result = numere.filter((item) => item > 50);
+
+console.log(result);
+
+// -------------------------------------
+
+let nume = ['Alexandru', 'Ion', 'Petru', 'Gicu'];
+
+const caractere = nume.filter((item) => item.length > 6 );
+console.log(caractere);
+
+// ----------------------------------------
+
+const users = [
+    { id: 1, admin: true },
+    { id: 2, admin: false },
+    { id: 3, admin: false },
+    { id: 4, admin: false },
+    { id: 5, admin: true },
+];
+
+const admin1 = users.filter((item)=> item.admin);
+console.log(admin1);
